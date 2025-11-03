@@ -26,9 +26,6 @@ function Techstack() {
         <TbBrandGolang title="Go" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRust title="Rust" />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 title="JavaScript" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -36,9 +33,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava title="Java" />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus title="C++" />
       </Col>
 
       {/* Front-End */}
@@ -80,12 +74,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGooglecloud title="GCP" />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGrafana title="Grafana" />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPrometheus title="Prometheus" />
       </Col>
     </Row>
   );

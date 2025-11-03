@@ -8,69 +8,90 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Results-driven <b className="purple">Senior Software Engineer</b> with 8 years of professional
-            experience in designing, developing, and deploying <b className="purple">scalable web applications</b> and <b className="purple">microservices</b>.
-            Proven expertise in <b className="purple">Golang, Rust, React.js, PostgreSQL</b>, and modern cloud-native technologies including <b className="purple">Docker, Kubernetes, and Google Cloud Platform</b>.
-            Skilled in leading cross-functional teams, mentoring junior engineers, and collaborating across agile product environments to deliver <b className="purple">business-critical solutions</b>.
-            Strong foundation in <b className="purple">software architecture, CI/CD pipelines, observability</b>, and full <b className="purple">SDLC ownership</b>.
+            Results-driven <b className="purple">Senior Software Engineer</b> with 10 years of experience architecting, developing, and deploying <b className="purple">scalable full-stack web 
+            applications and microservices</b> across diverse tech ecosystems.
+            Proven expertise in <b className="purple">MERN, MEVN, and LAMP stacks</b>, with advanced proficiency in JavaScript, TypeScript, React.js, Node.js, Express.js, 
+            and MongoDB, as well as cloud-native technologies such as Docker, Kubernetes, AWS, and GCP.
+            Highly skilled in <b className="purple">API integration, software architecture design, and CI/CD automation</b>, with a strong background in <b className="purple">DevOps practices, 
+            cloud infrastructure, and performance optimization.</b>
+            Experienced <b className="purple">Tech Lead and Mentor</b>, known for guiding teams through <b className="purple">agile workflows</b> to deliver <b className="purple">secure, reliable, and business-focused 
+            software solutions</b> that scale.
             <br />
             <br />
             <b className="purple">Experience:</b>
             <br />
-            <b>Inclined Technologies, Remote - Senior Software Engineer (Feb 2022 – Present)</b>
+            <b>Tech Innovators Japan, Remote – Senior MERN Stack Developer (Aug 2022 – May 2024)</b>
             <ul>
-              <li>Led the development of scalable Go-based microservices, supporting over 1M+ monthly API requests.</li>
-              <li>Designed and implemented full-stack features using Go, PostgreSQL, and React.js.</li>
-              <li>Refactored legacy Go codebase, increasing test coverage to 95%.</li>
-              <li>Optimized database queries and complex CTEs to support DRY code.</li>
-              <li>Built WebAssembly (WASM) modules in Rust to handle intensive client-side logic.</li>
-              <li>Implemented CI/CD pipelines using Docker, Kubernetes, and GitHub Actions.</li>
-              <li>Mentored junior developers, improving team velocity.</li>
+              <li>Spearheaded development of scalable, high-performance MERN web apps, reducing page load times by 30% and boosting engagement by 25%.</li>
+              <li>Architected responsive React.js front-ends, improving user satisfaction by 40%.</li>
+              <li>Led migration from monolithic to microservices architecture with Node.js and Express.js, improving scalability by 50% and reducing feature delivery time by 35%.</li>
+              <li>Engineered RESTful APIs and integrated third-party services, cutting response times by 20%.</li>
+              <li>Optimized MongoDB data models with Mongoose, enhancing query performance by 30%.</li>
+              <li>Implemented CI/CD pipelines with Jenkins and AWS, reducing deployment times by 40%.</li>
+              <li>Integrated WebSocket-based real-time features, supporting 5,000+ concurrent users.</li>
+              <li>Applied OWASP-compliant security practices, cutting vulnerabilities by 50%.</li>
+              <li>Mentored junior developers, increasing team productivity by 25%.</li>
             </ul>
-            <b>Sourcegraph, Remote - Senior Software Engineer (Sep 2020 – Jan 2022)</b>
+            <b>GlobalTech Japan, Remote – Full Stack Developer (Mar 2020 – Aug 2022)</b>
             <ul>
-              <li>Designed and deployed performant Go microservices for high-scale code indexing, processing over 100M+ code files.</li>
-              <li>Enhanced front-end interfaces with React.js and TypeScript, improving UX.</li>
-              <li>Integrated distributed tracing and observability tools (OpenTelemetry, Prometheus).</li>
-              <li>Implemented WASM modules for ultra-fast syntax parsing on browser extensions.</li>
-              <li>Maintained robust unit and integration tests with 98% coverage.</li>
+              <li>Developed high-performance MERN applications, reducing load times by 25% and improving UX.</li>
+              <li>Built React.js + Redux front-ends with interactive features, boosting retention by 30%.</li>
+              <li>Developed Node.js APIs with secure, low-latency data handling (−20% response time).</li>
+              <li>Optimized MongoDB queries and storage, cutting database overhead by 15%.</li>
+              <li>Led a team to build a scalable e-commerce platform supporting 20,000+ users.</li>
+              <li>Deployed to AWS and Heroku, maintaining 99.9% uptime.</li>
+              <li>Implemented Jest and Mocha tests achieving 85% coverage.</li>
+              <li>Adopted GraphQL for flexible data querying, reducing complex query times by 30%.</li>
             </ul>
-            <b>Timber.io, Remote - Software Engineer (May 2017 – Aug 2020)</b>
+            <b>Innovative Solutions Japan, Sapporo – Senior Web Developer (May 2018 – Mar 2020)</b>
             <ul>
-              <li>Engineered scalable real-time log management tools using Go and Kafka.</li>
-              <li>Reduced ingestion latency by 45% and improved system reliability.</li>
-              <li>Integrated with AWS and GCP for seamless log shipping and analysis.</li>
-              <li>Refactored monolithic codebase into modular microservices.</li>
-              <li>Developed WASM components to run analytics client-side, reducing server load.</li>
+              <li>Developed and maintained MERN applications, reducing client-side render time by 20%.</li>
+              <li>Built RESTful APIs in Node.js/Express.js supporting 100,000+ active users.</li>
+              <li>Implemented server-side rendering with React.js, improving SEO by 35%.</li>
+              <li>Integrated real-time chat with WebSockets for 10,000+ concurrent users.</li>
+              <li>Optimized MongoDB indexing, cutting query times by 40%.</li>
+              <li>Containerized deployments with Docker + Kubernetes, boosting release frequency by 50%.</li>
+              <li>Introduced performance monitoring (New Relic, Datadog), improving responsiveness by 25%.</li>
+            </ul>
+            <b>Tech Vision Japan, Fukuoka – MERN Stack Developer (Nov 2015 – May 2018)</b>
+            <ul>
+              <li>Developed full-stack MERN applications across finance, e-commerce, and healthcare sectors, improving user satisfaction by 30%.</li>
+              <li>Optimized MongoDB for large datasets (1M+ daily records) without performance loss.</li>
+              <li>Built dynamic React.js/Redux interfaces, reducing user churn by 20%.</li>
+              <li>Developed RESTful APIs in Node.js/Express.js with 25% faster response times.</li>
+              <li>Maintained automated Jest/Mocha testing suites, halving production bugs.</li>
+              <li>Implemented OAuth 2.0 and JWT authentication, strengthening security compliance.</li>
+              <li>Enhanced CI with CircleCI and GitHub Actions, reducing integration time by 40%.</li>
             </ul>
             <br />
             <b className="purple">Technical Skills:</b>
             <ul>
-              <li>Languages: Go, Rust, TypeScript, JavaScript (ES6+), Python, SQL, Bash</li>
-              <li>Back-End: RESTful APIs, GraphQL, Microservices, gRPC, Event-Driven Systems, JWT, OAuth 2.0</li>
-              <li>Front-End: SPA, Responsive Design, React.js, State Management, UI/UX Optimization</li>
-              <li>Databases: PostgreSQL, MongoDB, Redis, ElasticSearch, SQL Optimization</li>
-              <li>Cloud & DevOps: AWS, GCP, Docker, Kubernetes, CI/CD, Terraform, Observability (Prometheus/Grafana)</li>
-              <li>Soft Skills: Analytical Thinking, Mentorship, Collaboration, Ownership, Problem Solving, Adaptability</li>
+              <li><strong>Languages:</strong> JavaScript (ES6+), TypeScript, Python, Java, PHP</li>
+              <li><strong>Front-End:</strong> React.js, Next.js, SPA Architecture, Responsive Design, State Management (Redux, Context API), UI/UX Optimization, Tailwind CSS, Material-UI</li>
+              <li><strong>Back-End:</strong> Node.js, Express.js, RESTful APIs, GraphQL, Microservices, gRPC, Event-Driven Systems, JWT, OAuth 2.0, WebSocket</li>
+              <li><strong>Databases:</strong> MongoDB, PostgreSQL, Redis, ElasticSearch, MySQL, SQL Optimization, Mongoose, Prisma</li>
+              <li><strong>Cloud & DevOps:</strong> AWS (EC2, S3, Lambda), Docker, Kubernetes, CI/CD (GitHub Actions, Jenkins), Terraform, Nginx, Observability (Prometheus, Grafana), Vercel, Netlify</li>
+              <li><strong>Testing & QA:</strong> Jest, Mocha, Chai, Cypress, Supertest, ESLint, Prettier</li>
+              <li><strong>Tools & Workflow:</strong> Git, GitHub, GitLab, Jira, Trello, Postman, VS Code, Agile & Scrum</li>
+              <li><strong>Soft Skills:</strong> Analytical Thinking, Mentorship, Collaboration, Ownership, Problem Solving, Adaptability</li>
             </ul>
             <br />
             <b className="purple">Soft Skills:</b>
             <ul>
-              <li>Analytical Thinking</li>
-              <li>Effective Communication</li>
-              <li>Team Collaboration</li>
-              <li>Attention to Detail</li>
-              <li>Mentorship & Coaching</li>
-              <li>Problem Solving</li>
-              <li>Time Management</li>
-              <li>Adaptability in Fast-Paced Environments</li>
-              <li>Client-Facing Professionalism</li>
+              <li><strong>Analytical Thinking:</strong> Skilled at evaluating complex technical problems, identifying root causes, and implementing scalable, long-term solutions.</li>
+              <li><strong>Mentorship:</strong> Passionate about coaching junior developers, conducting code reviews, and fostering a culture of learning and knowledge sharing.</li>
+              <li><strong>Collaboration:</strong> Excellent team player experienced in Agile and cross-functional collaboration with designers, PMs, and QA teams.</li>
+              <li><strong>Ownership:</strong> Takes full accountability for project lifecycles — from planning and architecture to deployment and maintenance.</li>
+              <li><strong>Problem Solving:</strong> Expert at diagnosing bottlenecks and optimizing both performance and developer workflows for efficiency.</li>
+              <li><strong>Adaptability:</strong> Quickly learns and applies new technologies, frameworks, and methodologies in fast-paced, evolving environments.</li>
+              <li><strong>Communication:</strong> Clear, concise communicator able to bridge technical and business goals effectively.</li>
+              <li><strong>Leadership:</strong> Leads with empathy and technical excellence, ensuring quality, teamwork, and innovation across development teams.</li>
             </ul>
           </p>
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"
           </p>
-          <footer className="blockquote-footer">bijannavar</footer>
+          <footer className="blockquote-footer">Suzuki</footer>
         </blockquote>
       </Card.Body>
     </Card>
