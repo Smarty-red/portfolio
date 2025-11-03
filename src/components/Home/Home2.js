@@ -19,25 +19,14 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Results-driven <b className="purple">Senior Software Engineer</b> with 8 years of professional experience
-              in designing, developing, and deploying <b className="purple">scalable web applications</b> and
-              <b className="purple"> microservices</b>.
-              <br />
-              <br />
-              Proven expertise in{" "}
-              <b className="purple">Golang</b>, <b className="purple">Rust</b>, <b className="purple">React.js</b>,{" "}
-              <b className="purple">PostgreSQL</b>, and modern cloud-native technologies including{" "}
-              <b className="purple">Docker</b>, <b className="purple">Kubernetes</b>, and{" "}
-              <b className="purple">Google Cloud Platform (GCP)</b>.
-              <br />
-              <br />
-              Skilled in leading cross-functional teams, mentoring junior engineers, and collaborating across
-              agile product environments to deliver <b className="purple">business-critical solutions</b>.
-              <br />
-              <br />
-              Strong foundation in <b className="purple">software architecture</b>,{" "}
-              <b className="purple">CI/CD pipelines</b>, <b className="purple">observability</b>, and full{" "}
-              <b className="purple">SDLC ownership</b>.
+              Results-driven <b className="purple">Senior Software Engineer</b> with 10 years of experience architecting, developing, and deploying <b className="purple">scalable full-stack web 
+              applications and microservices</b> across diverse tech ecosystems.
+              Proven expertise in <b className="purple">MERN, MEVN, and LAMP stacks</b>, with advanced proficiency in JavaScript, TypeScript, React.js, Node.js, Express.js, 
+              and MongoDB, as well as cloud-native technologies such as Docker, Kubernetes, AWS, and GCP.
+              Highly skilled in <b className="purple">API integration, software architecture design, and CI/CD automation</b>, with a strong background in <b className="purple">DevOps practices, 
+              cloud infrastructure, and performance optimization.</b>
+              Experienced <b className="purple">Tech Lead and Mentor</b>, known for guiding teams through <b className="purple">agile workflows</b> to deliver <b className="purple">secure, reliable, and business-focused 
+              software solutions</b> that scale.
             </p>
 
           </Col>
@@ -66,16 +55,6 @@ function Home2() {
               </li>
               {/* <li className="social-icons">
                 <a
-                  href="https://twitter.com/yourhandle"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li> */}
-              <li className="social-icons">
-                <a
                   href="https://www.linkedin.com/in/bijan-navar-82043337b/"
                   target="_blank"
                   rel="noreferrer"
@@ -83,7 +62,7 @@ function Home2() {
                 >
                   <FaLinkedinIn />
                 </a>
-              </li>
+              </li> */}
               {/* <li className="social-icons">
                 <a
                   href="https://www.instagram.com/yourhandle"
