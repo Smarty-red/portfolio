@@ -14,7 +14,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Bijan Navarifar</h3>
+          <h3>Designed and Developed by Suzuki Ichiro</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} SB</h3>
@@ -23,7 +23,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/bijannavar"
+                href="https://github.com/Smarty-red"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -41,7 +41,7 @@ function Footer() {
                 <AiOutlineTwitter />
               </a>
             </li> */}
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/bijan-navar-82043337b/"
                 style={{ color: "white" }}
@@ -50,7 +50,7 @@ function Footer() {
               >
                 <FaLinkedinIn />
               </a>
-            </li>
+            </li> */}
             {/* <li className="social-icons">
               <a
                 href="https://www.instagram.com/devpro9219"

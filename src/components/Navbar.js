@@ -39,7 +39,7 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="/" className="d-flex">
           {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
-        <h1 style={{ fontSize: '100px', color: '#cd5ff8' }}>Bijan</h1>
+        <h1 style={{ fontSize: '100px', color: '#cd5ff8' }}>Suzuki</h1>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -104,7 +104,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/bijannavar"
+                href="https://github.com/Smarty-red"
                 target="_blank"
                 className="fork-btn-inner"
               >
